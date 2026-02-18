@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    min-width: 100vw;
+    min-height: 100vh;
+    margin-top: 1rem;
+    padding: 1rem;
+    
+    
+}
+.Container{
+    width: 50%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* background-color: wheat; */
+    border-radius: 14px;
+    
+    
+}
+.Nav{
+    background-color:#E3F2FD;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 50%;
+    justify-content: center;
+    color: white;
+    padding: 1rem;
+    
+    
+    margin-bottom: 1rem
+}
+.NavHeading{
+    font-size: 25px;
+    font-weight: bolder;
+    color: green;
+    width: 100%;
+    text-align: center;
+}
+.Desc{
+    font-size: 16px;
+}
+.Mid{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.Succesfully{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+}
+.check{
+    background-color: greenyellow;
+    width: 40px;
+    height: 43px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check i{
+    color: rgb(106, 175, 106);
+    font-weight: 600;
+}
+.Booked{
+    font-size: 24px;
+    font-weight: bolder;
+    width: 60%;
+    text-align: center;
+    padding: 4px;
+}
+.deatil{
+    color: gray;
+    /* text-align: center; */
+    font-size: 19px;
+    width: 60%;
+    text-align: center;
+    line-height: 1.4rem;
+    font-weight: 500;
+}
+.AppoinetDetail{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin-top: 1rem;
+    gap: 0.7rem;
+    font-family: sans-serif;
+    padding-left: 1.2rem;
+    padding-left: 0.3rem;
+}
+.AppoinetDetail h2{
+    font-size: 19.5px;
+}
+.AppoinetDetail p ,span{
+    letter-spacing: 0.1px;
+
+}
+.AppoinetDetail p{
+    font-weight: 500;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+    gap: 0.5rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    width: 80%;
+}
+#Book{
+ background-color: #2563EB; 
+   
+   color: #ffffff;
+  transition: background-color 0.25s ease;
+    padding: 12px 14px;
+    text-align: center;
+    font-size: 19px;
+    border-radius: 10px;
+}
+#Book:hover{
+      background-color: #1D4ED8;
+  color:#fff;
+     
+}
+
+#Done{
+    color: black;
+     transition: background-color 0.25s ease;
+    border: 1px solid black;
+      font-size: 19px;
+    border-radius: 7px;
+   background-color: #ffffff;
+    /* width: 85%; */
+    padding: 5px 14px;
+    text-align: center;
+    /* height: 27px; */
+
+}
+#Done:hover{
+    background:#666;
+    color:white;
+}
+#fullName{
+    text-transform: capitalize;
+}
+#Recomended{
+    font-size: 17.2px;
+    line-height: 21px;
+    /* border: 1px solid black; */
+    padding: 4px;
+    border-radius: 10px;
+    width: 90%;
+}
+#minutes{
+    font-weight: bold;
+    /* display: inline-block; */
+}

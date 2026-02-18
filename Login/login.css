@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+.main{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(128,144,168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+   min-width: 60%;
+   height: 100%;
+    background:#ffff;
+    margin-block: 2rem;
+    
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+.header img{
+    height: 90px;
+    width: 130px;
+}
+.Doctor_desc{
+    font-size: 28px;
+    font-weight: bold;
+}
+.gridContainer{
+    display: grid;
+    
+    grid-template-columns: repeat(1, 1fr);
+    /* margin-bottom: 2rem; */
+}
+.gridContainerItem{
+    display: flex;
+    justify-content: center;
+   
+    margin-bottom: 1.5rem;
+}
+.left_Item,.Right_Item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 40%;
+}
+#first{
+    font-weight: bold;
+    font-size: 18px;
+}
+.Star{
+  color:rgb(169, 68, 66);
+    font-size: 17px;
+    font-weight: 500;
+}
+.mid{
+    display: flex;
+    gap: 0.2rem;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.Logo{
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: blue;
+}
+.input{
+    width: 80%;
+    height: 1.5rem;
+    padding: 6px;
+    font-size: 17px;
+    outline: none;
+}
+.gridContainerItem label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 1rem;
+    padding-left: 0.4rem;
+}
+#Gender{
+    width: 23.5rem;
+    height: 2.5rem;
+    font-size: 21px;
+    padding-left: 6px;
+    
+}
+#TextArea{
+    width: 50vw;
+    padding-left: 2rem;
+    height: 20vh;
+   
+}
+#A{
+    width: 40vw;
+    margin-left: 3.5rem;
+    display: flex;
+    justify-content: start;
+    padding-left: 1.25rem;
+
+}
+#AddressContainer{
+    width: 40vw;
+    height: 100%;
+    display: flex;
+    /* justify-content: flex-start; */
+    margin-top: 0.5rem;
+}
+#Address{
+   width: 100%;
+   height: 100%;
+   padding: 7px 10px;
+   outline: none;
+   font-size: 16px;
+
+}
+#Area{
+    width: 100%;
+    height: 6vh;
+    padding-left: 4px;
+    font-size: 19px;
+    font-weight: 500;
+}
+#RadioContainer{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: self-start;
+}
+#radio{
+ display: flex;
+ width: 25%;
+ padding: 0;
+ justify-content: space-around;
+ /* margin-left: 2rem; */
+}
+.yes{
+    display: flex;
+    gap: 0;
+    justify-content: flex-start;
+    font-size: 19px;
+    width: 100%;
+   
+}
+.yes label{
+    margin: 0;
+     font-size: 19px;
+    
+}
+.yes label p{
+    font-size: 25px;
+   font-weight: 600;
+ 
+   width: 3rem;
+}
+#notext{
+    font-size: 22px;
+      font-weight: 600;
+}
+.yes input{
+    font-size: 30px;
+    width: 1.2rem;
+}
+
+#yes
+{
+    margin-left: 1rem;;
+}
+#no{
+    margin-left: 1rem;
+}
+#yesRadio{
+    margin-top: 0.2rem;
+}
+.Last{
+      width: 90%;
+    height: 6vh;
+    padding-left: 4px;
+    font-size: 19px;
+    font-weight: 500;
+    margin-left: 1.3rem;
+}
+.btnContainer{
+    width: 15%;
+    /* height: 4rem; */
+    margin: 1rem auto;
+    display: flex;
+    padding: 9px 10px;
+    justify-content: center;
+    background-color: gray;
+    cursor: pointer;
+    font-size: 19px;
+}
+.btnContainer:hover a{
+    
+    color: wheat;
+}
+#Timing{
+    
+    width: 90%;
+    margin-left: 1rem;
+    height: 2.5rem;
+    padding-left: 2px;
+    font-size: 19px;
+    margin-top: -0.2rem;
+}
+#TimingContainer{
+    position: relative;
+}
+#TimingContainer i{
+    position: absolute;
+    top: 2.5rem;
+    right: 27.3rem;
+    font-size: 19px;
+    font-weight: bold;
+    
+}
+.SubmitBtn{
+ text-decoration: none; 
+ color: black;  
+}
+.btnContainer:hover{
+    background-color: red;
+}
+#Ages{
+ 
+    width: 100%;
+    height: 40px;
+    padding: 4px;
+    outline: none;
+}
+#AddressContainer{
+    width: 400px;
+    margin-top: 0;
+    /* height: 100px; */
+    display: flex;
+    
+    align-items: start;
+}
+#TextArea{
+    /* width: px; */
+    margin-left: 2rem;
+    padding: 0;
+    /* background-color: red; */
+}
+.SubmitBtn {
+    background-color: #1e90ff;   /* blue */
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-size: 19px;
+}
+.SubmitBtn:hover{
+     background-color: #4897e6;
+     
+}
+
+#Ages{
+    font-size: 19px;
+}
+#Submission{
+    background-color: white;
+}
+
